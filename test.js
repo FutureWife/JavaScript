@@ -43,4 +43,7 @@ function search(name, prop)
         return "No Such Contact";
 }
 
-console.log(search("Anirban", "likes"))
+var name = prompt("Name: ");
+var property = prompt("Property: ");
+
+console.log(search(name, property))
